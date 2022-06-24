@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'golf_score_api',
+    'course_data_api',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

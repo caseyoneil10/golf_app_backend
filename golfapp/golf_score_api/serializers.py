@@ -4,4 +4,4 @@ from .models import Score
 class ScoreSerializer(serializers.ModelSerializer):
     class Meta:
         model = Score
-        fields = ('id', 'date', 'course', 'score', 'weather', 'teesPlayed',)
+        fields = ('id', 'date', 'course', 'score', 'weather',)

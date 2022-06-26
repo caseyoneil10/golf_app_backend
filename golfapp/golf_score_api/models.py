@@ -7,4 +7,3 @@ class Score(models.Model):
     course = models.CharField(max_length=50)
     score = models.IntegerField()
     weather = models.CharField(max_length=32)
-    teesPlayed = models.CharField(max_length=32)

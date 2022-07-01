@@ -2,7 +2,7 @@ from django.db import models
 
 # //this is my model
 
-class HoleScore(models.Model):
+class Holescore(models.Model):
     course = models.CharField(max_length=64)
     hole1Score = models.IntegerField()
     hole2Score = models.IntegerField()

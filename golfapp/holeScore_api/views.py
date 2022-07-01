@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 from rest_framework import generics
 from .serializers import HoleScoreSerializer
-from .models import HoleScore
+from .models import Holescore
 
 class HoleScoreList(generics.ListCreateAPIView):
     queryset = HoleScore.objects.all().order_by('id') # tell django how to retrieve all objects from the DB, order by id ascending

@@ -1,9 +1,9 @@
 from rest_framework import serializers
-from .models import HoleScore
+from .models import Holescore
 
 class HoleScoreSerializer(serializers.ModelSerializer):
     class Meta:
-        model = HoleScore
+        model = Holescore
         fields = ('id',
         'course',
         'hole1Score',

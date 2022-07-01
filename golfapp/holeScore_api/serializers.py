@@ -5,6 +5,7 @@ class HoleScoreSerializer(serializers.ModelSerializer):
     class Meta:
         model = HoleScore
         fields = ('id',
+        'course'
         'hole1Score',
         'hole2Score',
         'hole3Score',

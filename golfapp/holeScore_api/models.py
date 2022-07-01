@@ -2,6 +2,7 @@ from django.db import models
 
 
 class HoleScore(models.Model):
+    date = models.CharField(max_length=64)
     hole1Score = models.IntegerField()
     hole2Score = models.IntegerField()
     hole3Score = models.IntegerField()

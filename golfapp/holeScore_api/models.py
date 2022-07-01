@@ -1,6 +1,11 @@
 from django.db import models
 
 # //this is my model
+# //this is my model
+# //this is my model
+# //this is my model
+# //this is my model
+# //this is my model
 
 class Holescore(models.Model):
     course = models.CharField(max_length=64)
